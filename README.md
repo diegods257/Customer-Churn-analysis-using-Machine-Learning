@@ -35,4 +35,4 @@ The dataset was published by IBM and corresponds to customer churn or exit at a 
 
 ### For the proposed exercise, a high recall in class 1 (churn) is sought. Since the aim is to avoid false negatives, in other words, customers who are likely to cancel the service, but the model fails to detect them, having a high recall guarantees the effectiveness of the corporate measures applied for customer retention.
 
-### The best training results were obtained with the XGBClassifier algorithm with a recall of 0.86 and an accuracy of 0.75, assigning weights and with unbalanced data.
+### The best training results were obtained with the XGBClassifier algorithm with a recall of 0.86(class 1) and an accuracy of 0.75, assigning weights and with unbalanced data.
